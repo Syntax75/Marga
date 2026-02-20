@@ -1,0 +1,41 @@
+name: fintech
+description: FinTrust Flutter App
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.6
+
+  # 🔥 Firebase
+  firebase_core: ^2.30.0
+  firebase_auth: ^4.17.0
+
+  # 📷 Image Picker
+  image_picker: ^1.0.7
+
+  # 📄 File Picker
+  file_picker: ^6.1.1
+
+  # 🌐 API Calls
+  http: ^1.2.0
+
+  # 💾 Local storage
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
